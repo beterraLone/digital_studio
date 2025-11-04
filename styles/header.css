@@ -1,14 +1,24 @@
 header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
   background-color: #13131580;
-  height: 100px;
-  width: 300x;
+  height: 64px;
+  gap: 110px;
 }
 
-p{
-  background-color: aqua;
-  font-size: 40px;
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
-.dd{
-  font-size: 100px;
+.link-big{
+  font-size: 20px;
+  font-weight: 600;
 }
+
